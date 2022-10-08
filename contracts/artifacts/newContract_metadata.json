@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_strIn",
+						"type": "string"
+					}
+				],
+				"name": "getStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_in1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_in2",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/abstractContract.sol": "newContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/abstractContract.sol": {
+			"keccak256": "0x01ac2e2a35e868738e13ecb95b3c00ba46befec9e2dbf452ef03b60b293c6bfc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c6bb41e2be8405cd9c32f4ef3d3e4562a23663fb50ce83353882ec68c581dc49",
+				"dweb:/ipfs/QmUhbp4RedACYY7GqbtBQ3bCUicuAfaBgRmsJLnkAgu4bt"
+			]
+		}
+	},
+	"version": 1
+}

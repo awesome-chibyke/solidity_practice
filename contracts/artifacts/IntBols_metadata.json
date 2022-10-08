@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "theNumber",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IntBols.sol": "IntBols"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IntBols.sol": {
+			"keccak256": "0x01c8d72ea535348a7da89a0bc5337790de52aac7775121bdcf813ab867cb1f89",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b4b4f0ca3abc02ea2da92c080fbcc3af67c0c1b31578dbcaded2d519c38d0a2b",
+				"dweb:/ipfs/QmcHMbQEsHhtx68UPDSbSpiuFdT3qdwejC2dRw5HrAsJxj"
+			]
+		}
+	},
+	"version": 1
+}
